@@ -8,22 +8,22 @@ const playTune = (key) => {
     // Determine the audio file based on the key
     switch (key) {
         case 's':
-            audio = new Audio('sounds/red.m4a');  // Replace with your sound file
+            audio = new Audio('red.m4a');  // Replace with your sound file
             break;
         case 'd':
-            audio = new Audio('sounds/orange.m4a');  // Replace with your sound file
+            audio = new Audio('orange.m4a');  // Replace with your sound file
             break;
         case 'f':
-            audio = new Audio('sounds/yellow.m4a');  // Replace with your sound file
+            audio = new Audio('yellow.m4a');  // Replace with your sound file
             break;
         case 'j':
-            audio = new Audio('sounds/green.m4a');  // Replace with your sound file
+            audio = new Audio('green.m4a');  // Replace with your sound file
             break;
         case 'k':
-            audio = new Audio('sounds/blue.m4a');  // Replace with your sound file
+            audio = new Audio('blue.m4a');  // Replace with your sound file
             break;
         case 'l':
-            audio = new Audio('sounds/purple.m4a');  // Replace with your sound file
+            audio = new Audio('purple.m4a');  // Replace with your sound file
             break;
         default:
             console.error('No sound file found for this key.');
